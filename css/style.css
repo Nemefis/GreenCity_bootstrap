@@ -1,8 +1,9 @@
 .navbar-bg {
     background-color: #666666;
 }
-.navbar a, .top-banner p, .top-banner h1, .top-banner h3 {
+.navbar a, .top-banner p, .top-banner h1, .top-banner h3, footer .nav-link, footer p {
     color: white;
+    padding: 0;
 }
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
     width: 100%;
@@ -11,4 +12,17 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
 .top-banner {
     background-image: url("../img/banner.png");
     background-size: cover;
+}
+.content h3 {
+    color: #6DC72A;
+}
+.content p {
+    color: #999
+}
+footer .row {
+    margin: 0;
+    align-items: center;
+}
+footer .nav-link:focus, .nav-link:hover {
+    color: var(--bs-nav-link-hover-color);
 }
