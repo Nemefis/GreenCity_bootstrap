@@ -23,6 +23,11 @@ footer .row {
     margin: 0;
     align-items: center;
 }
-footer .nav-link:focus, .nav-link:hover {
-    color: var(--bs-nav-link-hover-color);
+footer .row {
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .nav-link {
+    text-decoration: underline;
 }
