@@ -42,3 +42,6 @@ footer .nav-link {
     height: 3px;
     margin: auto;
 }
+.space-around {
+    justify-content: space-around;
+}
