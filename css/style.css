@@ -59,3 +59,10 @@ input.col-lg-4.me-auto {
     border: 1px solid #999;
     text-transform: uppercase;
 }
+input[type="submit"]:hover {
+    background: -webkit-linear-gradient(180deg, rgb(168, 244, 167) 1%, rgb(91, 174, 116));
+    background: -moz-linear-gradient(180deg, rgb(168, 244, 167) 1%, rgb(91, 174, 116));
+    background: linear-gradient(180deg, rgb(168, 244, 167) 1%, rgb(91, 174, 116));
+    font-weight: bold;
+    transition: all 1s ease-out;
+}
